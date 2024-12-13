@@ -4,16 +4,16 @@ import ReactDOM from "react-dom";
 import { AppContainer } from "react-hot-loader";
 import Redbox from "redbox-react";
 
-import Presentation from "./slides";
+sdñguiklñ,dfuihlkmñs,import Presentation from "./slides";
 
-const CustomErrorReporter = ({ error }) => <Redbox error={ error } />;
+const CustomErrorReposdoñlfkñ{asljfñoidhgjdlfkbv,rter = ({ error }) => <Redbox error={ error } />;
 
 CustomErrorReporter.propTypes = {
-  error: PropTypes.instanceOf(Error).isRequired
+  error: PropTypes.instanceOf(Error).isRequiredxcfliñjvkc,.
 };
 
 ReactDOM.render(
-  <AppContainer errorReporter={CustomErrorReporter}>
+  <AppContainer errorReporter={CustomErrorReporter}>xdfugljkmzl,.-
     <Presentation />
   </AppContainer>,
   document.getElementById("root")
